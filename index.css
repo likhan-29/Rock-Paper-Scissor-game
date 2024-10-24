@@ -1,0 +1,90 @@
+body{
+    font-family: monospace;
+    /*background: radial-gradient(circle, rgba(238,174,202,1) 40%, rgba(148,187,233,1) 100%);*/
+    background: linear-gradient(to bottom right, #305170, #6DFC6B);
+    height: 100vmax;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+h3{
+    margin-top: -1rem;
+}
+.blank-space{
+    height: 50px;
+    width: 100%
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    max-width: 60rem;
+    min-width: 3rem;
+    height: 20rem;
+}
+.flex-container > div {
+    text-align: center;
+    font-size: 30px;
+}
+.left, .right{
+    width: 50%;
+}
+.line{
+    border: 1px solid black;
+}
+button{
+    cursor: pointer;
+    border:1px solid #305170;
+    background: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 4rem;
+}
+.computer{
+    box-shadow: 0px 0px 10px  #1bdebd;
+}
+.computer:hover{
+    box-shadow: 0px 0px 10px #1aa38a;
+}
+.computer:active{
+    box-shadow: 0px 0px 10px #1bdebd;
+}
+.user-rock{
+    box-shadow: 0px 0px 10px #3ebd80;
+}
+.user-rock:hover{
+    box-shadow: 0px 0px 10px #3d9e6e;
+}
+.user-rock:active{
+    box-shadow: 0px 0px 10px #3ebd80;
+}
+.user-paper{
+    box-shadow: 0px 0px 10px #42d68f
+}
+.user-paper:hover{
+    box-shadow: 0px 0px 10px #26b36f;
+}
+.user-paper:active{
+    box-shadow: 0px 0px 10px #42d68f
+}
+.user-scissor{
+    box-shadow: 0px 0px 10px #54de9c;
+}
+.user-scissor:hover{
+    box-shadow: 0px 0px 10px #50ba87;
+}
+.user-scissor:active{
+    box-shadow: 0px 0px 10px #54de9c;
+}
+.result{
+    font-size: 25px;
+    font-weight:bolder;
+    text-align: center;
+    padding-top: 2rem;
+}
